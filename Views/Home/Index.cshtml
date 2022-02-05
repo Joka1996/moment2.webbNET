@@ -1,0 +1,17 @@
+@model List<moment2.Models.MovieModel>
+@{
+    ViewData["Title"] = "Startsidan";
+}
+<h2>Hej o välkommen till Filmsidan</h2>
+<h3>Filmer som jag vill se iår 2022</h3>
+
+<ul>
+    @if(Model != null) {
+        @foreach(var movie in Model)
+        {
+          <li> <b>@movie.Title</b> - @movie.Realese <br /> |<b>Tankar:</b>@movie.Thoughts  <br /> |<b>Förutspått betyg:</b> @movie.Prediction <br /> |<a href="@movie.Url" target="_blank">Länk till film</a></li>
+        }
+    }
+</ul>
+
+<h3><a asp-controller="Home" asp-action="Bait">Klicka på mig!</a></h3>

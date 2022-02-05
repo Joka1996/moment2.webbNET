@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexWraper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: bisque;
+}
+
+header {
+  padding: 1%;
+  background-color: beige;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  background-color: bisque;
+}
+
+.container ul li {
+  padding: 5%;
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 125%;
+}
+
+/** formulär*/
+.addMovieForm form {
+  padding: 5%;
+  font-size: 1.2rem;
+  max-width: 100%;
+}
+.addMovieForm form input[type="text"],
+input[type="date"],
+input[type="url"],
+input[type="range"],
+input[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.addMovieForm form input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #218d25;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+.addMovieForm form input[type="reset"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: rgb(195, 64, 64);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+.addMovieForm form input[type="reset"]:hover {
+  cursor: pointer;
+  background-color: rgb(211, 89, 89);
+}
+.addMovieForm form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #2ca830;
+}
+
+.seenMovies ul li {
+  padding: 5%;
+  line-height: 125%;
+}
+.seenMovies ul li hr {
+  max-width: 100%;
+}
+
+.seenMovies p {
+  margin-top: 5%;
+}
+
+footer {
+  background-color: burlywood;
+  margin-top: auto;
+  height: 50px;
+}

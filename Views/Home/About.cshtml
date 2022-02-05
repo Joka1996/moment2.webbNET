@@ -1,0 +1,21 @@
+@model moment2.Models.ViewModeln
+
+@{
+    ViewData["Title"] = "Om sidan";
+}
+<h2>Om Filmsidan</h2>
+<div class="seenMovies">
+
+<h3>Filmer från 2021 med ett betyg 1-5:</h3>
+<ul>
+@{
+    // varför varning?
+   foreach(moment2.Models.MovieList list in Model.FilmList)
+   {
+       <li>@list.Title <br> Betyg:@list.Grade/5 <hr></li>
+   }
+}
+</ul>
+<p> Lite test med sessions viewdata.
+ <br> Dagar till att jag fyller år: @ViewData["birthDay"]</p>
+</div>

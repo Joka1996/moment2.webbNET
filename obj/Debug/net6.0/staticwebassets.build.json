@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "du6idxNvAOC7EPlz+dGouheeF0n/CD1EtRU64pW9mq4=",
+  "Source": "moment2",
+  "BasePath": "_content/moment2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "moment2\\wwwroot",
+      "Source": "moment2",
+      "ContentRoot": "D:\\VisualStudio repo\\1.Webbutveckling med .NET\\moment2\\wwwroot\\",
+      "BasePath": "_content/moment2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\VisualStudio repo\\1.Webbutveckling med .NET\\moment2\\wwwroot\\css\\style.css",
+      "SourceId": "moment2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio repo\\1.Webbutveckling med .NET\\moment2\\wwwroot\\",
+      "BasePath": "_content/moment2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\VisualStudio repo\\1.Webbutveckling med .NET\\moment2\\wwwroot\\js\\main.js",
+      "SourceId": "moment2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio repo\\1.Webbutveckling med .NET\\moment2\\wwwroot\\",
+      "BasePath": "_content/moment2",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    }
+  ]
+}

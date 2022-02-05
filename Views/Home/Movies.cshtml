@@ -1,0 +1,38 @@
+@model moment2.Models.MovieModel
+
+@{
+    //lägg till model överts
+    //sidans titel
+    ViewData["Title"] = "Filmer";
+}
+<h2>Lägg till filmer som ska ses. </h2>
+<h3>@ViewBag.sucess</h3>
+<div class="addMovieForm">
+<form method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <label asp-for="Title"></label>
+    <input asp-for="Title" type="text" />
+    <span asp-validation-for="Title"></span>
+    <br>
+    <label asp-for="Realese"></label>
+    <input asp-for="Realese" type="date" />
+     <span asp-validation-for="Realese"></span>
+    <br>
+    <label asp-for="Thoughts"></label>
+    <input asp-for="Thoughts" type="text" />
+     <span asp-validation-for="Thoughts"></span>
+    <br>
+    <label asp-for="Prediction"></label>
+    <input asp-for="Prediction" type="range" min="1" max="10"/>
+     <span asp-validation-for="Prediction"></span>
+    <br>
+    <label asp-for="Url"></label>
+    <input asp-for="Url" type="url" />
+     <span asp-validation-for="Url"></span>
+    <br>
+    <input type="submit" value="lägg till film">
+    <br>
+    <input type="reset" value="Nollställ formulär">
+</form>
+</div>
+<p> @ViewBag.text</p>
