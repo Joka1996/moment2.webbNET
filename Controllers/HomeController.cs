@@ -86,13 +86,13 @@ namespace moment2.Controllers {
     }
     //anpassa sökväg
     [HttpGet("/start/youtubeFilm")]
-    public IActionResult Bait() {
+    public IActionResult FilmTest() {
         //ta emot dagens datum från Index med session.
         string? today = HttpContext.Session.GetString("thisDate");
         //yesta skicka länk till iframe
         ViewData["today"] = today;
         var link = "https://www.youtube.com/embed/tWhXRtbn_fs";
-        ViewData["React to Bad & Great CGi"] = link;
+        ViewBag.youTube = link;
         return View();
     }
 }
