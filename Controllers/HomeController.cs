@@ -85,13 +85,14 @@ namespace moment2.Controllers {
             return View(vm);
     }
     //anpassa sökväg
-    [HttpGet("/start/bitConnect")]
+    [HttpGet("/start/youtubeFilm")]
     public IActionResult Bait() {
         //ta emot dagens datum från Index med session.
         string? today = HttpContext.Session.GetString("thisDate");
+        //yesta skicka länk till iframe
         ViewData["today"] = today;
-        var link = "https://www.youtube.com/embed/xK3yuxrmCac";
-        ViewData["bitConnect"] = link;
+        var link = "https://www.youtube.com/embed/tWhXRtbn_fs";
+        ViewData["React to Bad & Great CGi"] = link;
         return View();
     }
 }
