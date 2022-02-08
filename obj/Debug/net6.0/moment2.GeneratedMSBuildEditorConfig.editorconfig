@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = moment2
 build_property.RootNamespace = moment2
-build_property.ProjectDir = D:\VisualStudio repo\1.Webbutveckling med .NET\moment2\
+build_property.ProjectDir = d:\VisualStudio repo\1.Webbutveckling med .NET\moment2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VisualStudio repo\1.Webbutveckling med .NET\moment2
+build_property.MSBuildProjectDirectory = d:\VisualStudio repo\1.Webbutveckling med .NET\moment2
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/About.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/FilmTest.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/FilmTest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWxtVGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/Index.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/Movies.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Home/Movies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3ZpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_Footer.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_Layout.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_MenuBar.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_MenuBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51QmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_PartialTest.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/Shared/_PartialTest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/_ViewImports.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/_ViewStart.cshtml]
+[d:/VisualStudio repo/1.Webbutveckling med .NET/moment2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
