@@ -1,3 +1,3 @@
 # moment2.webbNET 
 
-Uppgift för moment2 i Webbutveckling med .NET. 
+Uppgift för moment2 i kursen Webbutveckling med .NET. 
